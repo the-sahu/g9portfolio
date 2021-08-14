@@ -160,64 +160,64 @@ const Header = () => {
                 <nav>
                   <ul class="space-y-4">
                     <li>
-                      <a
-                        href="/about"
+                      <Link
+                        to="/about"
                         aria-label=""
                         title=""
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-primary-400"
                       >
                         About
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/performance"
+                      <Link
+                        to="/performance"
                         aria-label="Our product"
                         title="Our product"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-primary-400"
                       >
                         Performance
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/charges"
+                      <Link
+                        to="/charges"
                         aria-label="Product pricing"
                         title="Product pricing"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-primary-400"
                       >
                         Charges
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/testimonials"
+                      <Link
+                        to="/testimonials"
                         aria-label="About us"
                         title="About us"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-primary-400"
                       >
                         Testimonials
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="/contact"
                         class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-primary-400 hover:bg-primary-700 focus:shadow-outline focus:outline-none"
                         aria-label="Sign up"
                         title="Sign up"
                       >
                         Open Account
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="/contact"
+                      <Link
+                        to="/contact"
                         class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-primary-400 hover:bg-primary-700 focus:shadow-outline focus:outline-none"
                         aria-label="Sign up"
                         title="Sign up"
                       >
                         Download App
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </nav>
