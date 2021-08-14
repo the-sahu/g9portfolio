@@ -86,7 +86,7 @@ const HomeScreen = () => {
                     </p>
                     <p className="text-base text-gray-700 md:text-lg ">
                       Open a FREE demat account. Discover intelligent investing.
-                      Choose a pricing plan. Start Your Journey!
+                      Choose a pricing plan. Start Your Journey!We use cookies to improve your journey and to personalize your web experience. By continuing to use this site, you are accepting our Terms of Use.I accept
                     </p>
                   </ScrollAnimation>
                 </div>

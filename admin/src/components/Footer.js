@@ -148,7 +148,7 @@ const Footer = () => {
                         </p>
                         <p class="leading-snug text-normal font-medium text-gray-900">
                           <a href="#" target="_blank">
-                            185, Khura, Neal Bowana Dam, Maharashtra
+                           Akola, Balapur road near shivaji park (icon hospital) Akola-444002 Maharashtra India
                           </a>
                         </p>
                       </div>
@@ -177,7 +177,7 @@ const Footer = () => {
                           Email
                         </p>
                         <p class="leading-snug text-normal font-medium text-gray-900">
-                          <a href="">info@g9solution.in</a>
+                          <a href="mailto:g9portfoliomng@gmail.com">g9portfoliomng@gmail.com</a>
                         </p>
                       </div>
                     </div>
@@ -205,7 +205,7 @@ const Footer = () => {
                           Office
                         </p>
                         <p class="leading-snug text-normal font-medium text-gray-900">
-                          <a href="tel:0731-12345"> 0731 - 12345</a>
+                          <a href="tel:7225825884"> 7225825884</a>
                         </p>
                       </div>
                     </div>
