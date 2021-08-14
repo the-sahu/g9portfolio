@@ -222,6 +222,7 @@ const Footer = () => {
               uk-scrollspy=" cls:uk-animation-fade; delay:200;  repeat:true;"
             >
               <div class="flex flex-col items-center justify-center w-full h-full p-10 lg:p-16 ">
+                <h1 className="text-lg text-gray-800 font-brand font-semibold">Hassle Free Account Opening</h1>
                 <h4 class="w-full text-3xl text-center font-brand capitalize  text-gray-800 font-semibold">
                   Fill The Form To Open An Account
                 </h4>

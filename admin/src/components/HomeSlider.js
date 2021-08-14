@@ -35,6 +35,26 @@ const HomeSLider = () => {
         <div className="lg:h-screen p-0">
           <div className="relative">
             <img
+              src="bg5.jpg"
+              className="relative object-cover  h-full w-full"
+            />
+            <div className="bg-gray-900 bg-opacity-30 absolute inset-0"></div>
+          </div>
+          <div className="absolute top-5 left-5 lg:top-60 lg:left-56 max-w-xl">
+            <ScrollAnimation
+              animateIn="bounceInRight"
+              animateOut="bounceOutRight"
+              delay={200}
+            >
+              <h1 className="text-white  opacity-100 lg:text-4xl text-xl capitalize font-semibold">
+              Hassle Free Account Opening
+              </h1>
+            </ScrollAnimation>
+          </div>
+        </div>
+        <div className="lg:h-screen p-0">
+          <div className="relative">
+            <img
               src="bg1.jpg"
               className="relative object-cover  h-full w-full"
             />

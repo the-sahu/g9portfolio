@@ -98,7 +98,7 @@ const Performance = () => {
               delay={300}
             >
               <h6 className="text-4xl font-bold text-deep-purple-accent-400">
-                2500+
+                25000+
               </h6>
               <p className="mb-2 font-bold text-md">Clients</p>
             </ScrollAnimation>

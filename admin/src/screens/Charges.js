@@ -265,6 +265,77 @@ const Charges = () => {
         </div>
       </section>
       {/* charges section ends */}
+
+      {/* section start */}
+      <section>
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="grid gap-5 row-gap-8 lg:grid-cols-2">
+        <div className="flex flex-col justify-center">
+          <div className="max-w-xl mb-6">
+          <ScrollAnimation
+              animateIn="bounceInRight"
+              animateOut="bounceOutLeft"
+              delay={100}
+            >
+            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+            Open <span className="text-primary-500"> Free*</span> Demat Account and Start Trading!
+
+            </h2>
+            </ScrollAnimation>
+            <ScrollAnimation
+              animateIn="bounceInRight"
+              animateOut="bounceOutLeft"
+              delay={200}
+            >
+            <p className="text-base text-gray-700 md:text-lg">
+            Futures and options are traded on commodity exchanges like Multi-Commodity Exchange (MCX) and National Commodity and Derivatives Exchange (NCDEX). Only members (brokers) are allowed to trade on these exchange, so you need to open commodity trading account with a broker like  G9 solution.
+            </p>
+            </ScrollAnimation>
+          </div>
+          <div className="grid gap-5 row-gap-8 sm:grid-cols-2">
+            <div className="bg-white  border-l-4 shadow-lg border-primary-500">
+              <div className="h-full p-5 border border-l-0 rounded-r">
+                <h6 className="mb-2 font-semibold leading-5">
+                OPEN COMMODITY ACCOUNT
+                </h6>
+                <p className="text-sm text-gray-900">
+                  There are two main types of products – futures and options. Futures contracts give you the right to purchase or sell a certain amount of a particular commodity at a predetermined date in the future. Options give you the right, but not the obligation, to buy or sell a specific commodity at a predetermined price in the future.
+
+                </p>
+              </div>
+            </div>
+            <div className="bg-white border-l-4 shadow-lg border-primary-500">
+              <div className="h-full p-5 border border-l-0 rounded-r">
+                <h6 className="mb-2 font-semibold uppercase leading-5">
+                Commodity trading account
+                </h6>
+                <p className="text-sm text-gray-900">
+                To trade in commodities, you need to open a commodity trading account with a broker.
+This type of trading is essentially in futures and options of products like agriculture (wheat, cotton, etc.), minerals (petroleum), and precious metals (gold, silver, etc.).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div>
+        <ScrollAnimation
+              animateIn="bounceInRight"
+              animateOut="bounceOutLeft"
+              delay={400}
+            >
+          <img
+            className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
+            src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+            alt=""
+          />
+          </ScrollAnimation>
+        </div>
+      </div>
+    </div>
+
+      </section>
+      {/* section ends */}
       {/* services section begins */}
       <section className="bg-gray-50">
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -413,7 +484,7 @@ const Charges = () => {
                     STOCK OPTION BASIC
                   </p>
                   <p className="text-gray-700 text-base">
-                    At Profit Aim, we guide our investors securely to trade the
+                    At G9Solution, we guide our investors securely to trade the
                     option segment and offer this service for our premium and
                     high net worth
                   </p>
@@ -434,7 +505,7 @@ const Charges = () => {
                     INDEX OPTION BASIC
                   </p>
                   <p className="text-gray-700 text-base">
-                    At Profit Aim, we guide our investors securely to trade the
+                    At G9Solution, we guide our investors securely to trade the
                     option segment and offer this service for our premium and
                     high net worth.
                   </p>
