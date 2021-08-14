@@ -63,9 +63,11 @@ const AboutScreen = () => {
                   delay={300}
                 >
                   <p className="text-base text-gray-700 md:text-lg">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam tempora perferendis amet, eveniet fugiat fuga! Sit in
-                    aut necessitatibus exercitationem.
+                    You are here to create Wealth for Yourself Open a FREE demat
+                    account. Discover intelligent investing. Choose a pricing
+                    plan. Start Your Journey! Having experience of more than 4
+                    years and a team of 25 market experts makes us stand out in
+                    the market.
                   </p>
                 </ScrollAnimation>
               </div>
@@ -86,8 +88,8 @@ const AboutScreen = () => {
           </div>
         </section>
         {/* about section ends */}
-          {/* services section begins */}
-          <section className="bg-gray-50">
+        {/* services section begins */}
+        <section className="bg-gray-50">
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
               <ScrollAnimation
@@ -134,103 +136,135 @@ const AboutScreen = () => {
                   Services
                 </h2>
               </ScrollAnimation>
-
             </div>
             <div className="px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
-              
               <div className="grid gap-8 row-gap-5 mb-8 lg:grid-cols-3 lg:row-gap-8">
-              <ScrollAnimation
-                animateIn="bounceInRight"
-                animateOut="bounceOutLeft"
-                delay={100}
-              >
-                <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
-                  <img className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80" src="bg1.jpg" alt="" />
-                  <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
-                  STOCK CASH BASIC
-                  </p>
-                  <p className="text-gray-700 text-base">
-                  Our Stock Cash Basic are offered over instant messenger service and SMS that are mediated through hi-tech software.
-                  </p>
-                </div>
-                </ScrollAnimation>
                 <ScrollAnimation
-                animateIn="bounceInRight"
-                animateOut="bounceOutLeft"
-                delay={200}
+                  animateIn="animate__bounceIn"
+                  animateOut="bounceOutLeft"
+                  delay={100}
                 >
-                <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
-                  <img className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80" src="bg2.jpg" alt="" />
-                  <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
-                  STOCK FUTURE PREMIUM
-                  </p>
-                  <p className="text-gray-700 text-base">
-                  We offer Stock Cash Premium Recommendation at an unmatched accuracy to help our clients earn maximum profit from the exchange.
-                  </p>
-                </div>
+                  <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
+                    <img
+                      className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+                      src="bg1.jpg"
+                      alt=""
+                    />
+                    <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
+                      STOCK CASH BASIC
+                    </p>
+                    <p className="text-gray-700 text-base">
+                      Our Stock Cash Basic are offered over instant messenger
+                      service and SMS that are mediated through hi-tech
+                      software.
+                    </p>
+                  </div>
                 </ScrollAnimation>
                 <ScrollAnimation
-                animateIn="bounceInRight"
-                animateOut="bounceOutLeft"
-                delay={300}
-              >
-                <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
-                  <img className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80" src="bg3.jpg" alt="" />
-                  <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
-                  STOCK CASH TECHNIQ
-                  </p>
-                  <p className="text-gray-700 text-base">
-                  Our Stock Cash TechniQ help our investors trade the market safely. We cover the stocks cash segments .
-                  </p>
-                </div>
+                  animateIn="animate__bounceIn"
+                  animateOut="bounceOutLeft"
+                  delay={200}
+                >
+                  <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
+                    <img
+                      className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+                      src="bg2.jpg"
+                      alt=""
+                    />
+                    <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
+                      STOCK FUTURE PREMIUM
+                    </p>
+                    <p className="text-gray-700 text-base">
+                      We offer Stock Cash Premium Recommendation at an unmatched
+                      accuracy to help our clients earn maximum profit from the
+                      exchange.
+                    </p>
+                  </div>
                 </ScrollAnimation>
                 <ScrollAnimation
-                animateIn="bounceInRight"
-                animateOut="bounceOutLeft"
-                delay={400}
-              >
-                <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
-                  <img className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80" src="bg3.jpg" alt="" />
-                  <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
-                  STOCK FUTURE BASIC
-                  </p>
-                  <p className="text-gray-700 text-base">
-                  Our Recommendation on the stock exchange are completely customized customer service where our customers would get calls in equity.
-                  </p>
-                </div>
+                  animateIn="animate__bounceIn"
+                  animateOut="bounceOutLeft"
+                  delay={300}
+                >
+                  <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
+                    <img
+                      className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+                      src="bg3.jpg"
+                      alt=""
+                    />
+                    <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
+                      STOCK CASH TECHNIQ
+                    </p>
+                    <p className="text-gray-700 text-base">
+                      Our Stock Cash TechniQ help our investors trade the market
+                      safely. We cover the stocks cash segments .
+                    </p>
+                  </div>
                 </ScrollAnimation>
                 <ScrollAnimation
-                animateIn="bounceInRight"
-                animateOut="bounceOutLeft"
-                delay={500}
-              >
-                <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
-                  <img className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80" src="bg5.jpg" alt="" />
-                  <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
-                  STOCK OPTION BASIC
-                  </p>
-                  <p className="text-gray-700 text-base">
-                  At Profit Aim, we guide our investors securely to trade the option segment and offer this service for our premium and high net worth
-                  </p>
-                </div>
-               </ScrollAnimation>
-               <ScrollAnimation
-                animateIn="bounceInRight"
-                animateOut="bounceOutLeft"
-                delay={600}
-              >
-                <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
-                  <img className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80" src="bg4.jpg" alt="" />
-                  <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
-                  INDEX OPTION BASIC
-                  </p>
-                  <p className="text-gray-700 text-base">
-                  At Profit Aim, we guide our investors securely to trade the option segment and offer this service for our premium and high net worth.
-                  </p>
-                </div>
-            </ScrollAnimation>
+                  animateIn="animate__bounceIn"
+                  animateOut="bounceOutLeft"
+                  delay={400}
+                >
+                  <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
+                    <img
+                      className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+                      src="bg3.jpg"
+                      alt=""
+                    />
+                    <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
+                      STOCK FUTURE BASIC
+                    </p>
+                    <p className="text-gray-700 text-base">
+                      Our Recommendation on the stock exchange are completely
+                      customized customer service where our customers would get
+                      calls in equity.
+                    </p>
+                  </div>
+                </ScrollAnimation>
+                <ScrollAnimation
+                  animateIn="animate__bounceIn"
+                  animateOut="bounceOutLeft"
+                  delay={500}
+                >
+                  <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
+                    <img
+                      className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+                      src="bg5.jpg"
+                      alt=""
+                    />
+                    <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
+                      STOCK OPTION BASIC
+                    </p>
+                    <p className="text-gray-700 text-base">
+                      At Profit Aim, we guide our investors securely to trade
+                      the option segment and offer this service for our premium
+                      and high net worth
+                    </p>
+                  </div>
+                </ScrollAnimation>
+                <ScrollAnimation
+                  animateIn="animate__bounceIn"
+                  animateOut="bounceOutLeft"
+                  delay={600}
+                >
+                  <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
+                    <img
+                      className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+                      src="bg4.jpg"
+                      alt=""
+                    />
+                    <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
+                      INDEX OPTION BASIC
+                    </p>
+                    <p className="text-gray-700 text-base">
+                      At Profit Aim, we guide our investors securely to trade
+                      the option segment and offer this service for our premium
+                      and high net worth.
+                    </p>
+                  </div>
+                </ScrollAnimation>
               </div>
-              
             </div>
           </div>
         </section>
@@ -289,9 +323,11 @@ const AboutScreen = () => {
                 delay={300}
               >
                 <p className="text-base text-gray-700 md:text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veniam tempora perferendis amet, eveniet fugiat fuga! Sit in
-                  aut necessitatibus exercitationem.
+                  We offer intraday trading recommendation for tomorrow,
+                  positional trading recommendation, btst stock recommendation,
+                  equity trading recommendation, commodity trading
+                  recommendation and much more to the customers interested in
+                  stock trading.
                 </p>
               </ScrollAnimation>
             </div>
@@ -340,10 +376,6 @@ const AboutScreen = () => {
                 </div>
               </ScrollAnimation>
             </div>
-            <p className="mx-auto mb-4 text-gray-600 sm:text-center lg:max-w-2xl lg:mb-6 md:px-16">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
           </div>
         </section>
         {/* pricing section ends */}
@@ -400,12 +432,7 @@ const AboutScreen = () => {
                 animateIn="bounceInRight"
                 animateOut="bounceOutLeft"
                 delay={400}
-              >
-                <p className="text-base text-gray-700 md:text-lg">
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque rem aperiam, eaque ipsa quae.
-                </p>
-              </ScrollAnimation>
+              ></ScrollAnimation>
             </div>
             <div className="grid gap-10 row-gap-8 mx-auto sm:row-gap-10 lg:max-w-screen-lg sm:grid-cols-2 lg:grid-cols-3">
               <ScrollAnimation

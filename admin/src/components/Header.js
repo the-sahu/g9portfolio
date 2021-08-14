@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { logout } from "../actions/userActions";
 import "../../node_modules/animate.css/animate.min.css";
@@ -12,7 +12,6 @@ const Header = () => {
   const dispatch = useDispatch();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-
   const userLogin = useSelector((state) => state.userLogin);
   const { userInfo } = userLogin;
 
@@ -23,13 +22,12 @@ const Header = () => {
     <div class="px-4 py-3 mx-auto sm:max-w-xl bg-white md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div class="relative flex items-center justify-between">
         <Link
-           to="/"
+          to="/"
           aria-label="Company"
           title="Company"
           class="inline-flex items-center"
         >
-          <img src="logo.png" className="h-10"/>
-          
+          <img src="logo.png" className="h-10" />
         </Link>
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
@@ -37,7 +35,7 @@ const Header = () => {
               to="/about"
               aria-label="Our product"
               title="Our product"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-primary-400"
             >
               About
             </Link>
@@ -47,7 +45,7 @@ const Header = () => {
               to="/performance"
               aria-label="Our product"
               title="Our product"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-primary-400"
             >
               Performance
             </Link>
@@ -57,7 +55,7 @@ const Header = () => {
               to="/charges"
               aria-label="Product pricing"
               title="Product pricing"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-primary-400"
             >
               Charges
             </Link>
@@ -65,8 +63,7 @@ const Header = () => {
           <li>
             <Link
               to="/testimonials"
-              
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-primary-400"
             >
               Testimonials
             </Link>
@@ -75,7 +72,7 @@ const Header = () => {
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
             <Link
-              to="#contact"
+              to="/contact"
               class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-primary-500 hover:bg-primary-500-700 focus:shadow-outline focus:outline-none"
               aria-label="Sign up"
               title="Sign up"
@@ -85,15 +82,26 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to="#contact"
+              to="/contact"
               class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-primary-500 hover:bg-primary-500-700 focus:shadow-outline focus:outline-none"
               aria-label="Sign up"
               title="Sign up"
             >
               Download App
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
-</svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                />
+              </svg>
             </Link>
           </li>
         </ul>
@@ -120,19 +128,18 @@ const Header = () => {
             </svg>
           </button>
           {isMenuOpen && (
-            <div class="absolute top-0 left-0 z-50 w-full">
+            <div class="absolute top-0 left-0 z-50 w-full transition duration-300 transition-all">
               <div class="p-5 bg-white border rounded shadow-sm">
                 <div class="flex items-center justify-between mb-4">
                   <div>
-                  <Link
-           to="/"
-          aria-label="Company"
-          title="Company"
-          class="inline-flex items-center"
-        >
-          <img src="logo.png" className="h-10"/>
-          
-        </Link>
+                    <Link
+                      to="/"
+                      aria-label="Company"
+                      title="Company"
+                      class="inline-flex items-center"
+                    >
+                      <img src="logo.png" className="h-10" />
+                    </Link>
                   </div>
                   <div>
                     <button
@@ -154,52 +161,62 @@ const Header = () => {
                   <ul class="space-y-4">
                     <li>
                       <a
-                        href="/"
-                        aria-label="Our product"
-                        title="Our product"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        href="/about"
+                        aria-label=""
+                        title=""
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-primary-400"
                       >
-                        Product
+                        About
                       </a>
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="/performance"
                         aria-label="Our product"
                         title="Our product"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-primary-400"
                       >
-                        Features
+                        Performance
                       </a>
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="/charges"
                         aria-label="Product pricing"
                         title="Product pricing"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-primary-400"
                       >
-                        Pricing
+                        Charges
                       </a>
                     </li>
                     <li>
                       <a
-                        href="/"
+                        href="/testimonials"
                         aria-label="About us"
                         title="About us"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-primary-400"
                       >
-                        About us
+                        Testimonials
                       </a>
                     </li>
                     <li>
                       <a
-                        href="/"
-                        class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+                        href="/contact"
+                        class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-primary-400 hover:bg-primary-700 focus:shadow-outline focus:outline-none"
                         aria-label="Sign up"
                         title="Sign up"
                       >
-                        Sign up
+                        Open Account
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="/contact"
+                        class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-primary-400 hover:bg-primary-700 focus:shadow-outline focus:outline-none"
+                        aria-label="Sign up"
+                        title="Sign up"
+                      >
+                        Download App
                       </a>
                     </li>
                   </ul>

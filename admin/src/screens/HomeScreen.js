@@ -11,9 +11,8 @@ import HomeSlider from "../components/HomeSlider";
 const HomeScreen = () => {
   return (
     <>
-    <HomeSlider/>
+      <HomeSlider />
       <div className="bg-primary-50  ">
-    
         <section>
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
             <div className="grid gap-10 lg:grid-cols-2">
@@ -82,9 +81,12 @@ const HomeScreen = () => {
                     delay={200}
                   >
                     <p className="text-base text-gray-800 md:text-xl font-semibold">
-                    You are here to create Wealth for Yourself
+                      You are here to create Wealth for Yourself
                     </p>
-                    <p className="text-base text-gray-700 md:text-lg ">Open a FREE demat account. Discover intelligent investing. Choose a pricing plan. Start Your Journey!</p>
+                    <p className="text-base text-gray-700 md:text-lg ">
+                      Open a FREE demat account. Discover intelligent investing.
+                      Choose a pricing plan. Start Your Journey!
+                    </p>
                   </ScrollAnimation>
                 </div>
                 <div>
@@ -152,110 +154,193 @@ const HomeScreen = () => {
         {/* about section ends */}
 
         <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-  
-  <div class="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
-  <ScrollAnimation
-      animateIn="bounceInRight"
-      animateOut="bounceOutLeft"
-      delay={100}
-    >
-    <div class="p-5 duration-300 h-full w-full transform group hover:bg-primary-500 bg-white border rounded shadow-sm hover:-translate-y-2">
-      <div class="flex items-center justify-center w-12 h-12 mb-4 group group-hover:bg-white rounded-full bg-primary-500">
-        <svg class="w-10 h-10 text-white group group-hover:text-primary-500" stroke="currentColor" viewBox="0 0 52 52">
-          <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-        </svg>
-      </div>
-      {/* <h6 class="mb-2 font-semibold leading-5 group group-hover:text-white">The doctor said</h6> */}
-      <p class="text-sm text-gray-900 group group-hover:text-white">
-      An IPO is a form of equity financing, where a percentage ownership of a company is given up by the founders in exchange for capital. It is the opposite of debt financing. The IPO process works with a private firm contacting an investment bank that will facilitate the IPO.
-      </p>
-    </div>
-    </ScrollAnimation>
-    <ScrollAnimation
-      animateIn="bounceInRight"
-      animateOut="bounceOutLeft"
-      delay={200}
-    >
-    <div class="p-5 duration-300 h-full w-full transform group hover:bg-primary-500 bg-white border rounded shadow-sm hover:-translate-y-2">
-      <div class="flex items-center justify-center w-12 h-12 mb-4 group group-hover:bg-white rounded-full bg-primary-500">
-        <svg class="w-10 h-10 text-white group group-hover:text-primary-500" stroke="currentColor" viewBox="0 0 52 52">
-          <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-        </svg>
-      </div>
-      {/* <h6 class="mb-2 font-semibold leading-5 group group-hover:text-white">That is the true</h6> */}
-      <p class="text-sm text-gray-900 group group-hover:text-white">
-      A trading account can be any investment account containing securities, cash or other holdings. Most commonly, trading account refers to a day trader's primary account. ... The assets held in a trading account are separated from others that may be part of a long-term buy and hold strategy.
-      </p>
-    </div>
-    </ScrollAnimation>
-    <ScrollAnimation
-      animateIn="bounceInRight"
-      animateOut="bounceOutLeft"
-      delay={300}
-    >
-    <div class="p-5 duration-300 h-full w-full transform group hover:bg-primary-500 bg-white border rounded shadow-sm hover:-translate-y-2">
-      <div class="flex items-center justify-center w-12 h-12 mb-4 group group-hover:bg-white rounded-full bg-primary-500">
-        <svg class="w-10 h-10 text-white group group-hover:text-primary-500" stroke="currentColor" viewBox="0 0 52 52">
-          <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-        </svg>
-      </div>
-      {/* <h6 class="mb-2 font-semibold leading-5 group group-hover:text-white">Those options</h6> */}
-      <p class="text-sm text-gray-900 group group-hover:text-white">
-      Demat Account or dematerialised account provides facility of holding shares and securities in electronic format. During online trading, shares are bought and held in a Demat account, thus facilitating easy trade for the users. A Demat Account holds all the investments an individual makes in shares, government securities, exchange-traded funds, bonds and mutual funds in one place      </p>
-    </div>
-    </ScrollAnimation>
-    <ScrollAnimation
-      animateIn="bounceInRight"
-      animateOut="bounceOutLeft"
-      delay={400}
-    >
-    <div class="p-5 duration-300 h-full w-full transform group hover:bg-primary-500 bg-white border rounded shadow-sm hover:-translate-y-2">
-      <div class="flex items-center justify-center w-12 h-12 mb-4 group group-hover:bg-white rounded-full bg-primary-500">
-        <svg class="w-10 h-10 text-white group group-hover:text-primary-500" stroke="currentColor" viewBox="0 0 52 52">
-          <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-        </svg>
-      </div>
-      {/* <h6 class="mb-2 font-semibold leading-5 group group-hover:text-white">Swearem ipsum</h6> */}
-      <p class="text-sm text-gray-900 group group-hover:text-white">
-      Currency trading, often referred to as foreign exchange or Forex, is the purchasing and selling of currencies in the foreign exchange marketplace, done with the objective of making profits.      </p>
-    </div>
-    </ScrollAnimation>
-    <ScrollAnimation
-      animateIn="bounceInRight"
-      animateOut="bounceOutLeft"
-      delay={500}
-    >
-    <div class="p-5 duration-300 h-full w-full transform group hover:bg-primary-500 bg-white border rounded shadow-sm hover:-translate-y-2">
-      <div class="flex items-center justify-center w-12 h-12 mb-4 group group-hover:bg-white rounded-full bg-primary-500">
-        <svg class="w-10 h-10 text-white group group-hover:text-primary-500" stroke="currentColor" viewBox="0 0 52 52">
-          <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-        </svg>
-      </div>
-      {/* <h6 class="mb-2 font-semibold leading-5 group group-hover:text-white">Webtwo ipsum</h6> */}
-      <p class="text-sm text-gray-900 group group-hover:text-white">
-      A commodity is a basic good used in commerce that is interchangeable with other goods of the same type. Traditional examples of commodities include grains, gold, beef, oil, and natural gas.      </p>
-    </div>
-    </ScrollAnimation>
-    <ScrollAnimation
-      animateIn="bounceInRight"
-      animateOut="bounceOutLeft"
-      delay={600}
-    >
-    <div class="p-5 duration-300 h-full w-full transform group hover:bg-primary-500 bg-white border rounded shadow-sm hover:-translate-y-2">
-      <div class="flex items-center justify-center w-12 h-12 mb-4 group group-hover:bg-white rounded-full bg-primary-500">
-        <svg class="w-10 h-10 text-white group group-hover:text-primary-500" stroke="currentColor" viewBox="0 0 52 52">
-          <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-        </svg>
-      </div>
-      {/* <h6 class="mb-2 font-semibold leading-5 group group-hover:text-white">Lookout flogging</h6> */}
-      <p class="text-sm text-gray-900 group group-hover:text-white">
-        Flatland! Hypatia. Galaxies Orion's sword globular star cluster? Light years quasar as a patch of light gathered by gravity Vangelis radio telescope.
-      </p>
-    </div>
-    </ScrollAnimation>
-  </div>
-  
-</div>
+          <div class="grid gap-5 mb-8 md:grid-cols-2 lg:grid-cols-3">
+            <ScrollAnimation
+              animateIn="bounceInRight"
+              animateOut="bounceOutLeft"
+              delay={100}
+            >
+              <div class="p-5 duration-300 h-full w-full transform group hover:bg-primary-500 bg-white border rounded shadow-sm hover:-translate-y-2">
+                <div class="flex items-center justify-center w-12 h-12 mb-4 group group-hover:bg-white rounded-full bg-primary-500">
+                  <svg
+                    class="w-10 h-10 text-white group group-hover:text-primary-500"
+                    stroke="currentColor"
+                    viewBox="0 0 52 52"
+                  >
+                    <polygon
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill="none"
+                      points="29 13 14 29 25 29 23 39 38 23 27 23"
+                    ></polygon>
+                  </svg>
+                </div>
+                {/* <h6 class="mb-2 font-semibold leading-5 group group-hover:text-white">The doctor said</h6> */}
+                <p class="text-sm text-gray-900 group group-hover:text-white">
+                  An IPO is a form of equity financing, where a percentage
+                  ownership of a company is given up by the founders in exchange
+                  for capital. It is the opposite of debt financing. The IPO
+                  process works with a private firm contacting an investment
+                  bank that will facilitate the IPO.
+                </p>
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation
+              animateIn="bounceInRight"
+              animateOut="bounceOutLeft"
+              delay={200}
+            >
+              <div class="p-5 duration-300 h-full w-full transform group hover:bg-primary-500 bg-white border rounded shadow-sm hover:-translate-y-2">
+                <div class="flex items-center justify-center w-12 h-12 mb-4 group group-hover:bg-white rounded-full bg-primary-500">
+                  <svg
+                    class="w-10 h-10 text-white group group-hover:text-primary-500"
+                    stroke="currentColor"
+                    viewBox="0 0 52 52"
+                  >
+                    <polygon
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill="none"
+                      points="29 13 14 29 25 29 23 39 38 23 27 23"
+                    ></polygon>
+                  </svg>
+                </div>
+                {/* <h6 class="mb-2 font-semibold leading-5 group group-hover:text-white">That is the true</h6> */}
+                <p class="text-sm text-gray-900 group group-hover:text-white">
+                  A trading account can be any investment account containing
+                  securities, cash or other holdings. Most commonly, trading
+                  account refers to a day trader's primary account. ... The
+                  assets held in a trading account are separated from others
+                  that may be part of a long-term buy and hold strategy.
+                </p>
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation
+              animateIn="bounceInRight"
+              animateOut="bounceOutLeft"
+              delay={300}
+            >
+              <div class="p-5 duration-300 h-full w-full transform group hover:bg-primary-500 bg-white border rounded shadow-sm hover:-translate-y-2">
+                <div class="flex items-center justify-center w-12 h-12 mb-4 group group-hover:bg-white rounded-full bg-primary-500">
+                  <svg
+                    class="w-10 h-10 text-white group group-hover:text-primary-500"
+                    stroke="currentColor"
+                    viewBox="0 0 52 52"
+                  >
+                    <polygon
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill="none"
+                      points="29 13 14 29 25 29 23 39 38 23 27 23"
+                    ></polygon>
+                  </svg>
+                </div>
+                {/* <h6 class="mb-2 font-semibold leading-5 group group-hover:text-white">Those options</h6> */}
+                <p class="text-sm text-gray-900 group group-hover:text-white">
+                  Demat Account or dematerialised account provides facility of
+                  holding shares and securities in electronic format. During
+                  online trading, shares are bought and held in a Demat account,
+                  thus facilitating easy trade for the users. A Demat Account
+                  holds all the investments an individual makes in shares,
+                  government securities, exchange-traded funds, bonds and mutual
+                  funds in one place{" "}
+                </p>
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation
+              animateIn="bounceInRight"
+              animateOut="bounceOutLeft"
+              delay={400}
+            >
+              <div class="p-5 duration-300 h-full w-full transform group hover:bg-primary-500 bg-white border rounded shadow-sm hover:-translate-y-2">
+                <div class="flex items-center justify-center w-12 h-12 mb-4 group group-hover:bg-white rounded-full bg-primary-500">
+                  <svg
+                    class="w-10 h-10 text-white group group-hover:text-primary-500"
+                    stroke="currentColor"
+                    viewBox="0 0 52 52"
+                  >
+                    <polygon
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill="none"
+                      points="29 13 14 29 25 29 23 39 38 23 27 23"
+                    ></polygon>
+                  </svg>
+                </div>
+                {/* <h6 class="mb-2 font-semibold leading-5 group group-hover:text-white">Swearem ipsum</h6> */}
+                <p class="text-sm text-gray-900 group group-hover:text-white">
+                  Currency trading, often referred to as foreign exchange or
+                  Forex, is the purchasing and selling of currencies in the
+                  foreign exchange marketplace, done with the objective of
+                  making profits.{" "}
+                </p>
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation
+              animateIn="bounceInRight"
+              animateOut="bounceOutLeft"
+              delay={500}
+            >
+              <div class="p-5 duration-300 h-full w-full transform group hover:bg-primary-500 bg-white border rounded shadow-sm hover:-translate-y-2">
+                <div class="flex items-center justify-center w-12 h-12 mb-4 group group-hover:bg-white rounded-full bg-primary-500">
+                  <svg
+                    class="w-10 h-10 text-white group group-hover:text-primary-500"
+                    stroke="currentColor"
+                    viewBox="0 0 52 52"
+                  >
+                    <polygon
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill="none"
+                      points="29 13 14 29 25 29 23 39 38 23 27 23"
+                    ></polygon>
+                  </svg>
+                </div>
+                {/* <h6 class="mb-2 font-semibold leading-5 group group-hover:text-white">Webtwo ipsum</h6> */}
+                <p class="text-sm text-gray-900 group group-hover:text-white">
+                  A commodity is a basic good used in commerce that is
+                  interchangeable with other goods of the same type. Traditional
+                  examples of commodities include grains, gold, beef, oil, and
+                  natural gas.{" "}
+                </p>
+              </div>
+            </ScrollAnimation>
+            <ScrollAnimation
+              animateIn="bounceInRight"
+              animateOut="bounceOutLeft"
+              delay={600}
+            >
+              <div class="p-5 duration-300 h-full w-full transform group hover:bg-primary-500 bg-white border rounded shadow-sm hover:-translate-y-2">
+                <div class="flex items-center justify-center w-12 h-12 mb-4 group group-hover:bg-white rounded-full bg-primary-500">
+                  <svg
+                    class="w-10 h-10 text-white group group-hover:text-primary-500"
+                    stroke="currentColor"
+                    viewBox="0 0 52 52"
+                  >
+                    <polygon
+                      stroke-width="3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      fill="none"
+                      points="29 13 14 29 25 29 23 39 38 23 27 23"
+                    ></polygon>
+                  </svg>
+                </div>
+                {/* <h6 class="mb-2 font-semibold leading-5 group group-hover:text-white">Lookout flogging</h6> */}
+                <p class="text-sm text-gray-900 group group-hover:text-white">
+                  Flatland! Hypatia. Galaxies Orion's sword globular star
+                  cluster? Light years quasar as a patch of light gathered by
+                  gravity Vangelis radio telescope.
+                </p>
+              </div>
+            </ScrollAnimation>
+          </div>
+        </div>
         {/* services section begins */}
         <section className="bg-gray-50">
           <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -304,103 +389,135 @@ const HomeScreen = () => {
                   Services
                 </h2>
               </ScrollAnimation>
-
             </div>
             <div className="px-4  mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
-              
               <div className="grid gap-8 row-gap-5 mb-8 lg:grid-cols-3 lg:row-gap-8">
-              <ScrollAnimation
-                animateIn="bounceInRight"
-                animateOut="bounceOutLeft"
-                delay={100}
-              >
-                <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
-                  <img className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80" src="bg1.jpg" alt="" />
-                  <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
-                  STOCK CASH BASIC
-                  </p>
-                  <p className="text-gray-700 text-base">
-                  Our Stock Cash Basic are offered over instant messenger service and SMS that are mediated through hi-tech software.
-                  </p>
-                </div>
-                </ScrollAnimation>
                 <ScrollAnimation
-                animateIn="bounceInRight"
-                animateOut="bounceOutLeft"
-                delay={200}
+                  animateIn="animate__bounceIn"
+                  animateOut="bounceOutLeft"
+                  delay={100}
                 >
-                <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
-                  <img className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80" src="bg2.jpg" alt="" />
-                  <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
-                  STOCK FUTURE PREMIUM
-                  </p>
-                  <p className="text-gray-700 text-base">
-                  We offer Stock Cash Premium Recommendation at an unmatched accuracy to help our clients earn maximum profit from the exchange.
-                  </p>
-                </div>
+                  <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
+                    <img
+                      className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+                      src="bg1.jpg"
+                      alt=""
+                    />
+                    <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
+                      STOCK CASH BASIC
+                    </p>
+                    <p className="text-gray-700 text-base">
+                      Our Stock Cash Basic are offered over instant messenger
+                      service and SMS that are mediated through hi-tech
+                      software.
+                    </p>
+                  </div>
                 </ScrollAnimation>
                 <ScrollAnimation
-                animateIn="bounceInRight"
-                animateOut="bounceOutLeft"
-                delay={300}
-              >
-                <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
-                  <img className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80" src="bg3.jpg" alt="" />
-                  <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
-                  STOCK CASH TECHNIQ
-                  </p>
-                  <p className="text-gray-700 text-base">
-                  Our Stock Cash TechniQ help our investors trade the market safely. We cover the stocks cash segments .
-                  </p>
-                </div>
+                  animateIn="animate__bounceIn"
+                  animateOut="bounceOutLeft"
+                  delay={200}
+                >
+                  <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
+                    <img
+                      className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+                      src="bg2.jpg"
+                      alt=""
+                    />
+                    <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
+                      STOCK FUTURE PREMIUM
+                    </p>
+                    <p className="text-gray-700 text-base">
+                      We offer Stock Cash Premium Recommendation at an unmatched
+                      accuracy to help our clients earn maximum profit from the
+                      exchange.
+                    </p>
+                  </div>
                 </ScrollAnimation>
                 <ScrollAnimation
-                animateIn="bounceInRight"
-                animateOut="bounceOutLeft"
-                delay={400}
-              >
-                <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
-                  <img className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80" src="bg3.jpg" alt="" />
-                  <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
-                  STOCK FUTURE BASIC
-                  </p>
-                  <p className="text-gray-700 text-base">
-                  Our Recommendation on the stock exchange are completely customized customer service where our customers would get calls in equity.
-                  </p>
-                </div>
+                  animateIn="animate__bounceIn"
+                  animateOut="bounceOutLeft"
+                  delay={300}
+                >
+                  <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
+                    <img
+                      className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+                      src="bg3.jpg"
+                      alt=""
+                    />
+                    <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
+                      STOCK CASH TECHNIQ
+                    </p>
+                    <p className="text-gray-700 text-base">
+                      Our Stock Cash TechniQ help our investors trade the market
+                      safely. We cover the stocks cash segments .
+                    </p>
+                  </div>
                 </ScrollAnimation>
                 <ScrollAnimation
-                animateIn="bounceInRight"
-                animateOut="bounceOutLeft"
-                delay={500}
-              >
-                <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
-                  <img className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80" src="bg5.jpg" alt="" />
-                  <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
-                  STOCK OPTION BASIC
-                  </p>
-                  <p className="text-gray-700 text-base">
-                  At Profit Aim, we guide our investors securely to trade the option segment and offer this service for our premium and high net worth
-                  </p>
-                </div>
-               </ScrollAnimation>
-               <ScrollAnimation
-                animateIn="bounceInRight"
-                animateOut="bounceOutLeft"
-                delay={600}
-              >
-                <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
-                  <img className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80" src="bg4.jpg" alt="" />
-                  <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
-                  INDEX OPTION BASIC
-                  </p>
-                  <p className="text-gray-700 text-base">
-                  At Profit Aim, we guide our investors securely to trade the option segment and offer this service for our premium and high net worth.
-                  </p>
-                </div>
-            </ScrollAnimation>
+                  animateIn="animate__bounceIn"
+                  animateOut="bounceOutLeft"
+                  delay={400}
+                >
+                  <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
+                    <img
+                      className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+                      src="bg3.jpg"
+                      alt=""
+                    />
+                    <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
+                      STOCK FUTURE BASIC
+                    </p>
+                    <p className="text-gray-700 text-base">
+                      Our Recommendation on the stock exchange are completely
+                      customized customer service where our customers would get
+                      calls in equity.
+                    </p>
+                  </div>
+                </ScrollAnimation>
+                <ScrollAnimation
+                  animateIn="animate__bounceIn"
+                  animateOut="bounceOutLeft"
+                  delay={500}
+                >
+                  <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
+                    <img
+                      className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+                      src="bg5.jpg"
+                      alt=""
+                    />
+                    <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
+                      STOCK OPTION BASIC
+                    </p>
+                    <p className="text-gray-700 text-base">
+                      At Profit Aim, we guide our investors securely to trade
+                      the option segment and offer this service for our premium
+                      and high net worth
+                    </p>
+                  </div>
+                </ScrollAnimation>
+                <ScrollAnimation
+                  animateIn="animate__bounceIn"
+                  animateOut="bounceOutLeft"
+                  delay={600}
+                >
+                  <div className="bg-white p-8 rounded-lg h-full w-full hover:scale-105 transition transform duration-200 hover:shadow-xl">
+                    <img
+                      className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+                      src="bg4.jpg"
+                      alt=""
+                    />
+                    <p className="mb-2 text-xl font-bold leading-none sm:text-lg">
+                      INDEX OPTION BASIC
+                    </p>
+                    <p className="text-gray-700 text-base">
+                      At Profit Aim, we guide our investors securely to trade
+                      the option segment and offer this service for our premium
+                      and high net worth.
+                    </p>
+                  </div>
+                </ScrollAnimation>
               </div>
-              
             </div>
           </div>
         </section>
@@ -459,7 +576,11 @@ const HomeScreen = () => {
                 delay={300}
               >
                 <p className="text-base text-gray-700 md:text-lg">
-                We offer intraday trading recommendation for tomorrow, positional trading recommendation, btst stock recommendation, equity trading recommendation, commodity trading recommendation and much more to the customers interested in stock trading.
+                  We offer intraday trading recommendation for tomorrow,
+                  positional trading recommendation, btst stock recommendation,
+                  equity trading recommendation, commodity trading
+                  recommendation and much more to the customers interested in
+                  stock trading.
                 </p>
               </ScrollAnimation>
             </div>
@@ -508,7 +629,6 @@ const HomeScreen = () => {
                 </div>
               </ScrollAnimation>
             </div>
-            
           </div>
         </section>
         {/* pricing section ends */}
@@ -582,15 +702,15 @@ const HomeScreen = () => {
                   <div className="flex flex-col w-full h-80 shadow-md rounded-sm transform transition duration-300 hover:-translate-y-2 group hover:bg-primary-500 bg-white">
                     <div className="flex-grow p-4 lg:p-8 bg-blueGray-50 rounded-t-xl">
                       <p className=" font-medium leading-relaxed text-blueGray-700 text-base group-hover:text-white">
-                      Just what I was looking for. Portfolio management is the most valuable business resource we have EVER purchased.
+                        Just what I was looking for. Portfolio management is the
+                        most valuable business resource we have EVER purchased.
                       </p>
                     </div>
                     <div className="px-6 py-4 bg-blueGray-100 rounded-b-xl">
                       <a className="inline-flex items-center">
-                        
                         <span className="flex flex-col flex-grow pl-3">
                           <span className="font-medium text-black text-center title-font group-hover:text-white">
-                          Joab I
+                            Joab I
                           </span>
                         </span>
                       </a>
@@ -607,15 +727,18 @@ const HomeScreen = () => {
                   <div className="flex flex-col w-full h-80 shadow-md rounded-sm transform transition duration-300 hover:-translate-y-2 group hover:bg-white bg-primary-500">
                     <div className="flex-grow p-4 lg:p-8 bg-blueGray-50 rounded-t-xl">
                       <p className=" font-medium leading-relaxed text-blueGray-700 text-base group-hover:text-primary-900 text-white">
-                      Professional, responsive, and able to keep up with ever-changing demand and tight deadlines: That's how I would describe Jeramy and his team at The G9Solution. When it comes to content marketing, you'll definitely get the 5-star treatment from the G9Solution!
+                        Professional, responsive, and able to keep up with
+                        ever-changing demand and tight deadlines: That's how I
+                        would describe Jeramy and his team at The G9Solution.
+                        When it comes to content marketing, you'll definitely
+                        get the 5-star treatment from the G9Solution!
                       </p>
                     </div>
                     <div className="px-6 py-4 bg-blueGray-100 rounded-b-xl">
                       <a className="inline-flex items-center">
-                        
                         <span className="flex flex-col flex-grow pl-3">
                           <span className="font-medium text-black text-center title-font group-hover:text-primary-900 text-white">
-                          Abhishek Pandey 
+                            Abhishek Pandey
                           </span>
                         </span>
                       </a>
@@ -632,16 +755,18 @@ const HomeScreen = () => {
                   <div className="flex flex-col w-full h-80 shadow-md rounded-sm transform transition duration-300 hover:-translate-y-2 group hover:bg-primary-500 bg-white">
                     <div className="flex-grow p-4 lg:p-8 bg-blueGray-50 rounded-t-xl">
                       <p className=" font-medium leading-relaxed text-blueGray-700 text-base group-hover:text-white">
-                      After being forced to move twice within five years, our customers had a hard time finding us and our sales plummeted. The G9Solution not only revitalized our brand, but saved our nearly 100-year-old family business from the brink of ruin.
-
+                        After being forced to move twice within five years, our
+                        customers had a hard time finding us and our sales
+                        plummeted. The G9Solution not only revitalized our
+                        brand, but saved our nearly 100-year-old family business
+                        from the brink of ruin.
                       </p>
                     </div>
                     <div className="px-6 py-4 bg-blueGray-100 rounded-b-xl">
                       <a className="inline-flex items-center">
-                        
                         <span className="flex flex-col flex-grow pl-3">
                           <span className="font-medium text-black text-center title-font group-hover:text-white">
-                          Dharmesh Devda
+                            Dharmesh Devda
                           </span>
                         </span>
                       </a>
