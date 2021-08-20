@@ -16,8 +16,8 @@ const Charges = () => {
               animateIn="bounceInRight"
               animateOut="bounceOutLeft"
             >
-              <h2 className="text-3xl mt-10 tracking-tight leading-10 font-medium sm:text-3xl text-white md:text-4xl">
-                Charges
+              <h2 className="text-3xl mt-10 tracking-tight cap leading-10 font-medium sm:text-3xl text-white md:text-4xl">
+                
               </h2>
             </ScrollAnimation>
           </div>

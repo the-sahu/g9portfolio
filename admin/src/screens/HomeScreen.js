@@ -11,6 +11,44 @@ import HomeSlider from "../components/HomeSlider";
 const HomeScreen = () => {
   return (
     <>
+  {/* cover image section start */}
+    <section>
+      <div className="h-screen relative" >
+        <img src="bg1.jpg" className="object-cover h-full w-full"/>
+        <div className="absolute top-0 right-0 bottom-0 left-0 bg-black opacity-80"></div>
+        <div className="md:top-60 top-40 px-5 md:left-40 absolute">
+        <h1 className="border-b-4 border-primary-500 pb-5 mb-6 font-sans  text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
+          Stock Market Portfolio Broker
+        </h1>
+        <h1 className=" pb-5 mb-6 font-sans  text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
+          Best share Market Portfolio Broker
+        </h1>
+        <Link
+              to="/contact"
+              class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-primary-500 hover:bg-primary-500-700 focus:shadow-outline focus:outline-none"
+              aria-label="Sign up"
+              title="Sign up"
+            >
+              Download App
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                />
+              </svg>
+            </Link>
+        </div>
+        </div>
+    </section>
+  {/* cover image section ends */}
       <HomeSlider />
       <div className="bg-primary-50  ">
         <section>
@@ -74,7 +112,7 @@ const HomeScreen = () => {
                     <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
                       G9 Solution, <br /> Portfolio Manage
                     </h2>
-                    <h1 className="uppercase text-xl font-bold">Sebi register</h1>
+                    <h1 className="uppercase text-xl font-bold">Sebi register (INZ000116135)</h1>
                   </ScrollAnimation>
                   <ScrollAnimation
                     animateIn="bounceInLeft"
@@ -861,6 +899,33 @@ This type of trading is essentially in futures and options of products like agri
           </div>
         </section>
         {/* testimonials section ends */}
+
+        {/*  logo section start*/}
+        <section className="bg-white">
+          <div className="max-w-7xl py-10 mx-auto">
+            <div className="grid md:grid-cols-6 grid-cols-3 gap-4">
+              <div className="mx-auto">
+                <img className="md:h-24 h-20 object-center  w-auto" src="tabu.jfif"/>
+              </div>
+              <div className="mx-auto">
+                <img className="md:h-24 h-20 object-center  w-auto" src="msme.png"/>
+              </div>
+              <div className="mx-auto">
+                <img className="md:h-24 h-20 object-center  w-auto" src="ssl.png"/>
+              </div>
+              <div className="mx-auto">
+                <img className="md:h-24 h-20 object-center  w-auto" src="sebi.png"/>
+              </div>
+              <div className="mx-auto">
+                <img className="md:h-24 h-20 object-center  w-auto" src="iaf.png"/>
+              </div>
+              <div className="mx-auto">
+                <img className="md:h-24 h-20 object-center  w-auto" src="godaddy.png"/>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*  logo section ends*/}
       </div>
     </>
   );
