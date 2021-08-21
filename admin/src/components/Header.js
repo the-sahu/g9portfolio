@@ -19,6 +19,24 @@ const Header = () => {
     dispatch(logout());
   };
   return (
+    <>
+
+    {/* gamil id section start */}
+      <div className=" bg-gray-800 ">
+        <div className="flex flex-row max-w-7xl mx-auto lg:px-10 px-5 py-4 justify-between items-center">
+          <a href="mailto:g9portfoliomng@gmail.com" className="text-sm lg:text-base text-gray-200">g9portfoliomng@gmail.com</a>
+          
+          <a href="https://www.moneycontrol.com/" target="_blank"
+              class="inline-flex items-center justify-center h-auto text-center lg:text-base text-xs px-2 py-2 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-primary-500 hover:bg-primary-500-700 focus:shadow-outline focus:outline-none"
+             
+            >
+              Live Market
+              
+            </a>
+        </div>
+        
+      </div>
+    {/* gamil id section ends */}
     <div class="px-4 py-3 mx-auto sm:max-w-xl bg-white md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div class="relative flex items-center justify-between">
         <Link
@@ -227,6 +245,7 @@ const Header = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

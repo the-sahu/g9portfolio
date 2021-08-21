@@ -900,32 +900,7 @@ This type of trading is essentially in futures and options of products like agri
         </section>
         {/* testimonials section ends */}
 
-        {/*  logo section start*/}
-        <section className="bg-white">
-          <div className="max-w-7xl py-10 mx-auto">
-            <div className="grid md:grid-cols-6 grid-cols-3 gap-4">
-              <div className="mx-auto">
-                <img className="md:h-24 h-20 object-center  w-auto" src="tabu.jfif"/>
-              </div>
-              <div className="mx-auto">
-                <img className="md:h-24 h-20 object-center  w-auto" src="msme.png"/>
-              </div>
-              <div className="mx-auto">
-                <img className="md:h-24 h-20 object-center  w-auto" src="ssl.png"/>
-              </div>
-              <div className="mx-auto">
-                <img className="md:h-24 h-20 object-center  w-auto" src="sebi.png"/>
-              </div>
-              <div className="mx-auto">
-                <img className="md:h-24 h-20 object-center  w-auto" src="iaf.png"/>
-              </div>
-              <div className="mx-auto">
-                <img className="md:h-24 h-20 object-center  w-auto" src="godaddy.png"/>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/*  logo section ends*/}
+       
       </div>
     </>
   );

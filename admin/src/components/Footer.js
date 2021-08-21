@@ -57,6 +57,33 @@ const Footer = () => {
   return (
     <div>
       {/* contact us section begins */}
+
+       {/*  logo section start*/}
+       <section className="bg-white">
+          <div className="max-w-7xl py-10 mx-auto">
+            <div className="grid md:grid-cols-6 grid-cols-3 gap-4">
+              <div className="mx-auto">
+                <img className="md:h-24 h-20 object-center  w-auto" src="tabu.jfif"/>
+              </div>
+              <div className="mx-auto">
+                <img className="md:h-24 h-20 object-center  w-auto" src="msme.png"/>
+              </div>
+              <div className="mx-auto">
+                <img className="md:h-24 h-20 object-center  w-auto" src="ssl.png"/>
+              </div>
+              <div className="mx-auto">
+                <img className="md:h-24 h-20 object-center  w-auto" src="sebi.png"/>
+              </div>
+              <div className="mx-auto">
+                <img className="md:h-24 h-20 object-center  w-auto" src="iaf.png"/>
+              </div>
+              <div className="mx-auto">
+                <img className="md:h-24 h-20 object-center  w-auto" src="godaddy.png"/>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/*  logo section ends*/}
       {/* Success response alert */}
       {responseMessage && (
         <div
