@@ -35,7 +35,7 @@ const HomeSLider = () => {
         <div className="lg:h-screen p-0">
           <div className="relative">
             <img
-              src="bg5.jpg"
+              src="sebicover.jpg"
               className="relative object-cover  h-full w-full"
             />
             <div className="bg-gray-900 bg-opacity-30 absolute inset-0"></div>
