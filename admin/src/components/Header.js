@@ -45,7 +45,7 @@ const Header = () => {
           title="Company"
           class="inline-flex items-center"
         >
-          <img src="logo.png" className="h-10" />
+          <img src="logo.png" className="h-12 w-16" />
         </Link>
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
