@@ -100,8 +100,9 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link
-              to="/contact"
+            <a
+              href="https://g9app.g9solution.in/"
+              target="_blank"
               class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-primary-500 hover:bg-primary-500-700 focus:shadow-outline focus:outline-none"
               aria-label="Sign up"
               title="Sign up"
@@ -121,7 +122,7 @@ const Header = () => {
                   d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
                 />
               </svg>
-            </Link>
+            </a>
           </li>
         </ul>
         <div class="lg:hidden">
